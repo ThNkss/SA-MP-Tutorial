@@ -2160,3 +2160,490 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [12:58:48] Number of vehicle models: 1
 [12:59:10] [connection] incoming connection: 127.0.0.1:65019 id: 0
 [12:59:10] [join] NewUser has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:20:55] filterscripts = ""  (string)
+[15:20:55] 
+[15:20:55] Server Plugins
+[15:20:55] --------------
+[15:20:55]  Loading plugin: mysql
+[15:20:56]  >> plugin.mysql: R41-4 successfully loaded.
+[15:20:56]   Loaded.
+[15:20:56]  Loading plugin: streamer
+[15:20:57] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[15:20:57]   Loaded.
+[15:20:57]  Loaded 2 plugins.
+
+[15:20:57] 
+[15:20:57] Filterscripts
+[15:20:57] ---------------
+[15:20:57]   Loaded 0 filterscripts.
+
+[15:20:58] Connected to database.
+[15:20:58] 
+----------------------------------
+[15:20:58]  This is our first Gamemode
+[15:20:58] ----------------------------------
+
+[15:20:58] Number of vehicle models: 1
+[15:21:42] [connection] incoming connection: 127.0.0.1:50500 id: 0
+[15:21:42] [join] ThNks has joined the server (0:127.0.0.1)
+[15:21:55] [part] ThNks has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:25:03] filterscripts = ""  (string)
+[15:25:03] 
+[15:25:03] Server Plugins
+[15:25:03] --------------
+[15:25:03]  Loading plugin: mysql
+[15:25:03]  >> plugin.mysql: R41-4 successfully loaded.
+[15:25:03]   Loaded.
+[15:25:03]  Loading plugin: streamer
+[15:25:03] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[15:25:03]   Loaded.
+[15:25:03]  Loaded 2 plugins.
+
+[15:25:03] 
+[15:25:03] Filterscripts
+[15:25:03] ---------------
+[15:25:03]   Loaded 0 filterscripts.
+
+[15:25:03] Connected to database.
+[15:25:03] 
+----------------------------------
+[15:25:03]  This is our first Gamemode
+[15:25:03] ----------------------------------
+
+[15:25:03] Number of vehicle models: 1
+[15:25:29] [connection] incoming connection: 127.0.0.1:63257 id: 0
+[15:25:29] [join] ThNks has joined the server (0:127.0.0.1)
+[15:25:46] [part] ThNks has left the server (0:1)
+[15:26:01] [connection] incoming connection: 127.0.0.1:61976 id: 0
+[15:26:02] [join] ThNks has joined the server (0:127.0.0.1)
+[15:26:41] [part] ThNks has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:29:31] filterscripts = ""  (string)
+[22:29:31] 
+[22:29:31] Server Plugins
+[22:29:31] --------------
+[22:29:31]  Loading plugin: mysql
+[22:29:31]  >> plugin.mysql: R41-4 successfully loaded.
+[22:29:31]   Loaded.
+[22:29:31]  Loading plugin: streamer
+[22:29:31] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[22:29:31]   Loaded.
+[22:29:31]  Loaded 2 plugins.
+
+[22:29:31] 
+[22:29:31] Filterscripts
+[22:29:31] ---------------
+[22:29:31]   Loaded 0 filterscripts.
+
+[22:29:32] Script[gamemodes/new.amx]: Run time error 19: "File or function is not found"
+[22:29:32] Number of vehicle models: 0
+[22:29:49] --- Server Shutting Down.
+[22:29:49] plugin.mysql: Unloading plugin...
+[22:29:49] plugin.mysql: Plugin unloaded.
+[22:29:49] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:29:51] filterscripts = ""  (string)
+[22:29:51] 
+[22:29:51] Server Plugins
+[22:29:51] --------------
+[22:29:51]  Loading plugin: mysql
+[22:29:51]  >> plugin.mysql: R41-4 successfully loaded.
+[22:29:51]   Loaded.
+[22:29:51]  Loading plugin: streamer
+[22:29:51] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[22:29:51]   Loaded.
+[22:29:51]  Loaded 2 plugins.
+
+[22:29:51] 
+[22:29:51] Filterscripts
+[22:29:51] ---------------
+[22:29:51]   Loaded 0 filterscripts.
+
+[22:29:51] Script[gamemodes/new.amx]: Run time error 19: "File or function is not found"
+[22:29:51] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:32:02] filterscripts = ""  (string)
+[22:32:02] 
+[22:32:02] Server Plugins
+[22:32:02] --------------
+[22:32:02]  Loading plugin: mysql
+[22:32:02]  >> plugin.mysql: R41-4 successfully loaded.
+[22:32:02]   Loaded.
+[22:32:02]  Loading plugin: streamer
+[22:32:02] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[22:32:02]   Loaded.
+[22:32:02]  Loaded 2 plugins.
+
+[22:32:02] 
+[22:32:02] Filterscripts
+[22:32:02] ---------------
+[22:32:02]   Loaded 0 filterscripts.
+
+[22:32:02] Script[gamemodes/new.amx]: Run time error 19: "File or function is not found"
+[22:32:02] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:32:23] filterscripts = ""  (string)
+[22:32:23] 
+[22:32:23] Server Plugins
+[22:32:23] --------------
+[22:32:23]  Loading plugin: mysql
+[22:32:23]  >> plugin.mysql: R41-4 successfully loaded.
+[22:32:23]   Loaded.
+[22:32:23]  Loading plugin: streamer
+[22:32:23] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[22:32:23]   Loaded.
+[22:32:23]  Loading plugin: sscanf2
+[22:32:23]   Failed.
+[22:32:23]  Loaded 2 plugins.
+
+[22:32:23] 
+[22:32:23] Filterscripts
+[22:32:23] ---------------
+[22:32:23]   Loaded 0 filterscripts.
+
+[22:32:23] Script[gamemodes/new.amx]: Run time error 19: "File or function is not found"
+[22:32:23] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:32:38] filterscripts = ""  (string)
+[22:32:38] 
+[22:32:38] Server Plugins
+[22:32:38] --------------
+[22:32:38]  Loading plugin: mysql
+[22:32:38]  >> plugin.mysql: R41-4 successfully loaded.
+[22:32:38]   Loaded.
+[22:32:38]  Loading plugin: streamer
+[22:32:38] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[22:32:38]   Loaded.
+[22:32:38]  Loading plugin: sscanf
+[22:32:38] 
+[22:32:38]  ===============================
+[22:32:38] 
+[22:32:38]       sscanf plugin loaded.     
+[22:32:38] 
+[22:32:38]          Version: 2.13.8
+[22:32:38] 
+[22:32:38]    (c) 2022 Alex "Y_Less" Cole  
+[22:32:38] 
+[22:32:38]  ===============================
+[22:32:38] 
+[22:32:38]   Loaded.
+[22:32:38]  Loaded 3 plugins.
+
+[22:32:38] 
+[22:32:38] Filterscripts
+[22:32:38] ---------------
+[22:32:38]   Loaded 0 filterscripts.
+
+[22:32:38] Connected to database.
+[22:32:38] 
+----------------------------------
+[22:32:38]  This is our first Gamemode
+[22:32:38] ----------------------------------
+
+[22:32:38] Number of vehicle models: 1
+[22:33:15] [connection] incoming connection: 127.0.0.1:62129 id: 0
+[22:33:16] [join] ThNks has joined the server (0:127.0.0.1)
+[22:34:16] [part] ThNks has left the server (0:1)
+[22:34:32] --- Server Shutting Down.
+[22:34:32] plugin.mysql: Unloading plugin...
+[22:34:32] plugin.mysql: Plugin unloaded.
+[22:34:32] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[22:34:32] 
+[22:34:32]  ===============================
+[22:34:32] 
+[22:34:32]      sscanf plugin unloaded.    
+[22:34:32] 
+[22:34:32]  ===============================
+[22:34:32] 
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:34:36] filterscripts = ""  (string)
+[22:34:36] 
+[22:34:36] Server Plugins
+[22:34:36] --------------
+[22:34:36]  Loading plugin: mysql
+[22:34:36]  >> plugin.mysql: R41-4 successfully loaded.
+[22:34:36]   Loaded.
+[22:34:36]  Loading plugin: streamer
+[22:34:36] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[22:34:36]   Loaded.
+[22:34:36]  Loading plugin: sscanf
+[22:34:36] 
+[22:34:36]  ===============================
+[22:34:36] 
+[22:34:36]       sscanf plugin loaded.     
+[22:34:36] 
+[22:34:36]          Version: 2.13.8
+[22:34:36] 
+[22:34:36]    (c) 2022 Alex "Y_Less" Cole  
+[22:34:36] 
+[22:34:36]  ===============================
+[22:34:36] 
+[22:34:36]   Loaded.
+[22:34:36]  Loaded 3 plugins.
+
+[22:34:36] 
+[22:34:36] Filterscripts
+[22:34:36] ---------------
+[22:34:36]   Loaded 0 filterscripts.
+
+[22:34:36] Connected to database.
+[22:34:36] 
+----------------------------------
+[22:34:36]  This is our first Gamemode
+[22:34:36] ----------------------------------
+
+[22:34:36] Number of vehicle models: 1
+[22:34:50] [connection] incoming connection: 127.0.0.1:55014 id: 0
+[22:34:51] [join] ThNks has joined the server (0:127.0.0.1)
+[22:35:08] [part] ThNks has left the server (0:1)
+[22:35:33] --- Server Shutting Down.
+[22:35:33] plugin.mysql: Unloading plugin...
+[22:35:33] plugin.mysql: Plugin unloaded.
+[22:35:33] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[22:35:33] 
+[22:35:33]  ===============================
+[22:35:33] 
+[22:35:33]      sscanf plugin unloaded.    
+[22:35:33] 
+[22:35:33]  ===============================
+[22:35:33] 
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:35:36] filterscripts = ""  (string)
+[22:35:36] 
+[22:35:36] Server Plugins
+[22:35:36] --------------
+[22:35:36]  Loading plugin: mysql
+[22:35:36]  >> plugin.mysql: R41-4 successfully loaded.
+[22:35:36]   Loaded.
+[22:35:36]  Loading plugin: streamer
+[22:35:36] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[22:35:36]   Loaded.
+[22:35:36]  Loading plugin: sscanf
+[22:35:36] 
+[22:35:36]  ===============================
+[22:35:36] 
+[22:35:36]       sscanf plugin loaded.     
+[22:35:36] 
+[22:35:36]          Version: 2.13.8
+[22:35:36] 
+[22:35:36]    (c) 2022 Alex "Y_Less" Cole  
+[22:35:36] 
+[22:35:36]  ===============================
+[22:35:36] 
+[22:35:36]   Loaded.
+[22:35:36]  Loaded 3 plugins.
+
+[22:35:36] 
+[22:35:36] Filterscripts
+[22:35:36] ---------------
+[22:35:36]   Loaded 0 filterscripts.
+
+[22:35:36] Connected to database.
+[22:35:36] 
+----------------------------------
+[22:35:36]  This is our first Gamemode
+[22:35:36] ----------------------------------
+
+[22:35:36] Number of vehicle models: 1
+[22:35:50] [connection] incoming connection: 127.0.0.1:53043 id: 0
+[22:35:50] [join] ThNks has joined the server (0:127.0.0.1)
+[22:36:34] [part] ThNks has left the server (0:1)
+[22:46:16] [connection] incoming connection: 127.0.0.1:57812 id: 0
+[22:46:16] [join] ThNks has joined the server (0:127.0.0.1)
+[22:47:03] [part] ThNks has left the server (0:1)
+[22:47:07] --- Server Shutting Down.
+[22:47:07] plugin.mysql: Unloading plugin...
+[22:47:07] plugin.mysql: Plugin unloaded.
+[22:47:07] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[22:47:07] 
+[22:47:07]  ===============================
+[22:47:07] 
+[22:47:07]      sscanf plugin unloaded.    
+[22:47:07] 
+[22:47:07]  ===============================
+[22:47:07] 
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:47:10] filterscripts = ""  (string)
+[22:47:10] 
+[22:47:10] Server Plugins
+[22:47:10] --------------
+[22:47:10]  Loading plugin: mysql
+[22:47:10]  >> plugin.mysql: R41-4 successfully loaded.
+[22:47:10]   Loaded.
+[22:47:10]  Loading plugin: streamer
+[22:47:10] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[22:47:10]   Loaded.
+[22:47:10]  Loading plugin: sscanf
+[22:47:10] 
+[22:47:10]  ===============================
+[22:47:10] 
+[22:47:10]       sscanf plugin loaded.     
+[22:47:10] 
+[22:47:10]          Version: 2.13.8
+[22:47:10] 
+[22:47:10]    (c) 2022 Alex "Y_Less" Cole  
+[22:47:10] 
+[22:47:10]  ===============================
+[22:47:10] 
+[22:47:10]   Loaded.
+[22:47:10]  Loaded 3 plugins.
+
+[22:47:10] 
+[22:47:10] Filterscripts
+[22:47:10] ---------------
+[22:47:10]   Loaded 0 filterscripts.
+
+[22:47:10] Connected to database.
+[22:47:10] 
+----------------------------------
+[22:47:10]  This is our first Gamemode
+[22:47:10] ----------------------------------
+
+[22:47:10] Number of vehicle models: 1
+[22:47:26] [connection] incoming connection: 127.0.0.1:51528 id: 0
+[22:47:27] [join] ThNks has joined the server (0:127.0.0.1)
+[22:47:42] [part] ThNks has left the server (0:1)
+[22:51:03] [connection] incoming connection: 127.0.0.1:54105 id: 0
+[22:51:13] [connection] incoming connection: 127.0.0.1:54106 id: 0
+[22:51:25] [connection] incoming connection: 127.0.0.1:54107 id: 0
+[22:51:43] [connection] incoming connection: 127.0.0.1:65000 id: 0
+[22:51:43] [join] ThNks has joined the server (0:127.0.0.1)
+[22:53:45] [part] ThNks has left the server (0:1)
+[22:53:52] --- Server Shutting Down.
+[22:53:53] plugin.mysql: Unloading plugin...
+[22:53:53] plugin.mysql: Plugin unloaded.
+[22:53:53] 
+
+*** Streamer Plugin v2.9.6 by Incognito unloaded ***
+
+[22:53:53] 
+[22:53:53]  ===============================
+[22:53:53] 
+[22:53:53]      sscanf plugin unloaded.    
+[22:53:53] 
+[22:53:53]  ===============================
+[22:53:53] 

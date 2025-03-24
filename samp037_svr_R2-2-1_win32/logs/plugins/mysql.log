@@ -1,79 +1,98 @@
-[12:34:32] [INFO] changed log level from 'warning, error' to 'info'
-[12:34:32] [INFO] Callback 'OnHousesDownloaded' set up for delayed execution.
-[12:34:32] [INFO] query "SELECT * FROM `houses`" successfully executed within 0.355 milliseconds
-[12:34:32] [INFO] Executing callback 'OnHousesDownloaded' with 0 parameter...
-[12:34:32] [INFO] Callback successfully executed.
-[12:34:52] [INFO] Callback 'OnPlayerDataLoaded' set up for delayed execution.
-[12:34:52] [INFO] orm_select: generated query "SELECT `password`,`salt`,`x`,`y`,`z`,`a`,`interior`,`id`,`skin`,`money`,`virtualworld` FROM `players` WHERE `username`='NewUser' LIMIT 1"
-[12:34:52] [INFO] query "SELECT `password`,`salt`,`x`,`y`,`z`,`a`,`interior`,`id`,`skin`,`money`,`virtualworld` FROM `players` WHERE `username`='NewUser' LIMIT 1" successfully executed within 0.410 milliseconds
-[12:34:52] [INFO] Executing callback 'OnPlayerDataLoaded' with 1 parameter...
-[12:34:52] [INFO] Callback successfully executed.
-[12:35:16] [INFO] Callback 'TellUser' set up for delayed execution.
-[12:36:57] [INFO] orm_update: generated query "UPDATE `players` SET `password`='6E4829BCC6F44E4EB00E588FC2D3F06F3E9805274E5F6771C0A0038C103A2283',`salt`='P;eg(HX8cH|*=tz4',`x`='2231.365',`y`='-1286.411',`z`='25.367',`a`='138.296',`interior`='0',`skin`='7',`money`='100000',`virtualworld`='0',`username`='NewUser' WHERE `id`='10' LIMIT 1"
-[12:36:57] [INFO] query "UPDATE `players` SET `password`='6E4829BCC6F44E4EB00E588FC2D3F06F3E9805274E5F6771C0A0038C103A2283',`salt`='P;eg(HX8cH|*=tz4',`x`='2231.365',`y`='-1286.411',`z`='25.367',`a`='138.296',`interior`='0',`skin`='7',`money`='100000',`virtualworld`='0',`username`='NewUser' WHERE `id`='10' LIMIT 1" successfully executed within 11.115 milliseconds
-[12:37:09] [INFO] Creating new connection handle...
-[12:37:09] [INFO] changed log level from 'info' to 'info'
-[12:37:09] [INFO] Callback 'OnHousesDownloaded' set up for delayed execution.
-[12:37:09] [INFO] query "SELECT * FROM `houses`" successfully executed within 0.447 milliseconds
-[12:37:09] [INFO] Callback 'OnPlayerDataLoaded' set up for delayed execution.
-[12:37:09] [INFO] orm_select: generated query "SELECT `password`,`salt`,`x`,`y`,`z`,`a`,`interior`,`id`,`skin`,`money`,`virtualworld` FROM `players` WHERE `username`='NewUser' LIMIT 1"
-[12:37:09] [INFO] Executing callback 'OnHousesDownloaded' with 0 parameter...
-[12:37:09] [INFO] Callback successfully executed.
-[12:37:09] [INFO] query "SELECT `password`,`salt`,`x`,`y`,`z`,`a`,`interior`,`id`,`skin`,`money`,`virtualworld` FROM `players` WHERE `username`='NewUser' LIMIT 1" successfully executed within 0.203 milliseconds
-[12:37:09] [INFO] Executing callback 'OnPlayerDataLoaded' with 1 parameter...
-[12:37:09] [INFO] Callback successfully executed.
-[12:37:28] [INFO] Callback 'TellUser' set up for delayed execution.
-[12:37:28] [INFO] orm_insert: generated query "INSERT INTO `houses` (`house_owner`,`house_labelx`,`house_labely`,`house_labelz`,`house_enterx`,`house_entery`,`house_enterz`,`house_exitposx`,`house_exitposy`,`house_exitposz`,`house_exitposa`) VALUES ('server','2229.01','-1285.042','25.367','2229.988','-1280.466','25.367','2230.394','-1282.578','25.367','181.618')"
-[12:37:28] [INFO] query "INSERT INTO `houses` (`house_owner`,`house_labelx`,`house_labely`,`house_labelz`,`house_enterx`,`house_entery`,`house_enterz`,`house_exitposx`,`house_exitposy`,`house_exitposz`,`house_exitposa`) VALUES ('server','2229.01','-1285.042','25.367','2229.988','-1280.466','25.367','2230.394','-1282.578','25.367','181.618')" successfully executed within 3.659 milliseconds
-[12:37:28] [INFO] Executing callback 'TellUser' with 1 parameter...
-[12:37:28] [INFO] Callback successfully executed.
-[12:37:56] [INFO] orm_update: generated query "UPDATE `players` SET `password`='6E4829BCC6F44E4EB00E588FC2D3F06F3E9805274E5F6771C0A0038C103A2283',`salt`='P;eg(HX8cH|*=tz4',`x`='2229.752',`y`='-1285.706',`z`='25.367',`a`='102.207',`interior`='0',`skin`='7',`money`='100000',`virtualworld`='0',`username`='NewUser' WHERE `id`='10' LIMIT 1"
-[12:37:56] [INFO] query "UPDATE `players` SET `password`='6E4829BCC6F44E4EB00E588FC2D3F06F3E9805274E5F6771C0A0038C103A2283',`salt`='P;eg(HX8cH|*=tz4',`x`='2229.752',`y`='-1285.706',`z`='25.367',`a`='102.207',`interior`='0',`skin`='7',`money`='100000',`virtualworld`='0',`username`='NewUser' WHERE `id`='10' LIMIT 1" successfully executed within 2.912 milliseconds
-[12:38:08] [INFO] Creating new connection handle...
-[12:38:08] [INFO] changed log level from 'info' to 'info'
-[12:38:08] [INFO] Callback 'OnHousesDownloaded' set up for delayed execution.
-[12:38:08] [INFO] Callback 'OnPlayerDataLoaded' set up for delayed execution.
-[12:38:08] [INFO] orm_select: generated query "SELECT `password`,`salt`,`x`,`y`,`z`,`a`,`interior`,`id`,`skin`,`money`,`virtualworld` FROM `players` WHERE `username`='NewUser' LIMIT 1"
-[12:38:08] [INFO] query "SELECT * FROM `houses`" successfully executed within 0.321 milliseconds
-[12:38:08] [INFO] query "SELECT `password`,`salt`,`x`,`y`,`z`,`a`,`interior`,`id`,`skin`,`money`,`virtualworld` FROM `players` WHERE `username`='NewUser' LIMIT 1" successfully executed within 0.176 milliseconds
-[12:38:08] [INFO] Executing callback 'OnHousesDownloaded' with 0 parameter...
-[12:38:08] [INFO] Callback successfully executed.
-[12:38:08] [INFO] Executing callback 'OnPlayerDataLoaded' with 1 parameter...
-[12:38:08] [INFO] Callback successfully executed.
-[12:38:22] [INFO] query "UPDATE `houses` SET `house_owner` = 'NewUser' WHERE `houses`.`house_id` = 2;" successfully executed within 3.281 milliseconds
-[12:38:44] [INFO] orm_update: generated query "UPDATE `players` SET `password`='6E4829BCC6F44E4EB00E588FC2D3F06F3E9805274E5F6771C0A0038C103A2283',`salt`='P;eg(HX8cH|*=tz4',`x`='2231.257',`y`='-1294.18',`z`='23.98',`a`='179.239',`interior`='0',`skin`='7',`money`='100000',`virtualworld`='0',`username`='NewUser' WHERE `id`='10' LIMIT 1"
-[12:38:44] [INFO] query "UPDATE `players` SET `password`='6E4829BCC6F44E4EB00E588FC2D3F06F3E9805274E5F6771C0A0038C103A2283',`salt`='P;eg(HX8cH|*=tz4',`x`='2231.257',`y`='-1294.18',`z`='23.98',`a`='179.239',`interior`='0',`skin`='7',`money`='100000',`virtualworld`='0',`username`='NewUser' WHERE `id`='10' LIMIT 1" successfully executed within 3.263 milliseconds
-[12:53:41] [INFO] changed log level from 'warning, error' to 'info'
-[12:53:41] [INFO] Callback 'OnHousesDownloaded' set up for delayed execution.
-[12:53:41] [INFO] query "SELECT * FROM `houses`" successfully executed within 23.271 milliseconds
-[12:53:41] [INFO] Executing callback 'OnHousesDownloaded' with 0 parameter...
-[12:53:41] [INFO] Callback successfully executed.
-[12:54:05] [INFO] Callback 'OnPlayerDataLoaded' set up for delayed execution.
-[12:54:05] [INFO] orm_select: generated query "SELECT `password`,`salt`,`x`,`y`,`z`,`a`,`interior`,`id`,`skin`,`money`,`virtualworld` FROM `players` WHERE `username`='NewUser' LIMIT 1"
-[12:54:05] [INFO] query "SELECT `password`,`salt`,`x`,`y`,`z`,`a`,`interior`,`id`,`skin`,`money`,`virtualworld` FROM `players` WHERE `username`='NewUser' LIMIT 1" successfully executed within 1.579 milliseconds
-[12:54:05] [INFO] Executing callback 'OnPlayerDataLoaded' with 1 parameter...
-[12:54:05] [INFO] Callback successfully executed.
-[12:55:40] [INFO] Callback 'TellUser' set up for delayed execution.
-[12:55:40] [INFO] orm_insert: generated query "INSERT INTO `houses` (`house_owner`,`house_labelx`,`house_labely`,`house_labelz`,`house_enterx`,`house_entery`,`house_enterz`,`house_exitposx`,`house_exitposy`,`house_exitposz`,`house_exitposa`) VALUES ('server','2467.09','-1651.507','13.471','2469.491','-1646.346','13.78','2469.438','-1648.197','13.472','182.012')"
-[12:55:40] [INFO] query "INSERT INTO `houses` (`house_owner`,`house_labelx`,`house_labely`,`house_labelz`,`house_enterx`,`house_entery`,`house_enterz`,`house_exitposx`,`house_exitposy`,`house_exitposz`,`house_exitposa`) VALUES ('server','2467.09','-1651.507','13.471','2469.491','-1646.346','13.78','2469.438','-1648.197','13.472','182.012')" successfully executed within 3.505 milliseconds
-[12:55:40] [INFO] Executing callback 'TellUser' with 1 parameter...
-[12:55:40] [INFO] Callback successfully executed.
-[12:57:06] [INFO] query "UPDATE `houses` SET `house_owner` = 'NewUser' WHERE `houses`.`house_id` = 3;" successfully executed within 2.873 milliseconds
-[12:58:00] [INFO] orm_update: generated query "UPDATE `players` SET `password`='6E4829BCC6F44E4EB00E588FC2D3F06F3E9805274E5F6771C0A0038C103A2283',`salt`='P;eg(HX8cH|*=tz4',`x`='2452.178',`y`='-1650.768',`z`='13.41',`a`='359.941',`interior`='0',`skin`='7',`money`='100000',`virtualworld`='0',`username`='NewUser' WHERE `id`='10' LIMIT 1"
-[12:58:00] [INFO] query "UPDATE `players` SET `password`='6E4829BCC6F44E4EB00E588FC2D3F06F3E9805274E5F6771C0A0038C103A2283',`salt`='P;eg(HX8cH|*=tz4',`x`='2452.178',`y`='-1650.768',`z`='13.41',`a`='359.941',`interior`='0',`skin`='7',`money`='100000',`virtualworld`='0',`username`='NewUser' WHERE `id`='10' LIMIT 1" successfully executed within 2.822 milliseconds
-[12:58:48] [INFO] changed log level from 'warning, error' to 'info'
-[12:58:48] [INFO] Callback 'OnHousesDownloaded' set up for delayed execution.
-[12:58:48] [INFO] query "SELECT * FROM `houses`" successfully executed within 0.232 milliseconds
-[12:58:48] [INFO] Executing callback 'OnHousesDownloaded' with 0 parameter...
-[12:58:48] [INFO] Callback successfully executed.
-[12:59:10] [INFO] Callback 'OnPlayerDataLoaded' set up for delayed execution.
-[12:59:10] [INFO] orm_select: generated query "SELECT `password`,`salt`,`x`,`y`,`z`,`a`,`interior`,`id`,`skin`,`money`,`virtualworld` FROM `players` WHERE `username`='NewUser' LIMIT 1"
-[12:59:10] [INFO] query "SELECT `password`,`salt`,`x`,`y`,`z`,`a`,`interior`,`id`,`skin`,`money`,`virtualworld` FROM `players` WHERE `username`='NewUser' LIMIT 1" successfully executed within 0.328 milliseconds
-[12:59:10] [INFO] Executing callback 'OnPlayerDataLoaded' with 1 parameter...
-[12:59:10] [INFO] Callback successfully executed.
-[13:00:28] [INFO] Callback 'TellUser' set up for delayed execution.
-[13:00:28] [INFO] orm_insert: generated query "INSERT INTO `houses` (`house_owner`,`house_labelx`,`house_labely`,`house_labelz`,`house_enterx`,`house_entery`,`house_enterz`,`house_exitposx`,`house_exitposy`,`house_exitposz`,`house_exitposa`) VALUES ('server','2449.156','-1651.037','13.402','2451.908','-1641.409','14.066','2451.898','-1644.132','13.457','180.712')"
-[13:00:28] [INFO] query "INSERT INTO `houses` (`house_owner`,`house_labelx`,`house_labely`,`house_labelz`,`house_enterx`,`house_entery`,`house_enterz`,`house_exitposx`,`house_exitposy`,`house_exitposz`,`house_exitposa`) VALUES ('server','2449.156','-1651.037','13.402','2451.908','-1641.409','14.066','2451.898','-1644.132','13.457','180.712')" successfully executed within 3.508 milliseconds
-[13:00:28] [INFO] Executing callback 'TellUser' with 1 parameter...
-[13:00:28] [INFO] Callback successfully executed.
-[13:00:40] [INFO] query "UPDATE `houses` SET `house_owner` = 'NewUser' WHERE `houses`.`house_id` = 4;" successfully executed within 3.76 milliseconds
+[22:32:38] [INFO] changed log level from 'warning, error' to 'info'
+[22:32:38] [INFO] Callback 'OnHousesDownloaded' set up for delayed execution.
+[22:32:38] [INFO] Callback 'OnServerVehiclesLoaded' set up for delayed execution.
+[22:32:38] [INFO] query "SELECT * FROM `houses`" successfully executed within 0.360 milliseconds
+[22:32:38] [INFO] Executing callback 'OnHousesDownloaded' with 0 parameter...
+[22:32:38] [INFO] Callback successfully executed.
+[22:32:38] [INFO] Callback 'OnQueryError' set up for delayed execution.
+[22:32:38] [INFO] Executing callback 'ä¹' with 5 parameters...
+[22:32:38] [INFO] Callback successfully executed.
+[22:33:16] [INFO] Callback 'OnPlayerDataLoaded' set up for delayed execution.
+[22:33:16] [INFO] orm_select: generated query "SELECT `password`,`salt`,`x`,`y`,`z`,`a`,`interior`,`id`,`skin`,`money`,`virtualworld` FROM `players` WHERE `username`='ThNks' LIMIT 1"
+[22:33:16] [INFO] query "SELECT `password`,`salt`,`x`,`y`,`z`,`a`,`interior`,`id`,`skin`,`money`,`virtualworld` FROM `players` WHERE `username`='ThNks' LIMIT 1" successfully executed within 0.436 milliseconds
+[22:33:16] [INFO] Executing callback 'OnPlayerDataLoaded' with 1 parameter...
+[22:33:16] [INFO] Callback successfully executed.
+[22:33:47] [INFO] Callback 'onVehicleAdded' set up for delayed execution.
+[22:33:47] [INFO] query "INSERT INTO `svehicle` VALUES (NULL, '2299.081787', '-1264.997559', '23.548203', '195.793655', '531', '0', '-1', '-1', '999.0');" successfully executed within 5.364 milliseconds
+[22:33:47] [INFO] Executing callback 'onVehicleAdded' with 1 parameter...
+[22:33:47] [INFO] Callback successfully executed.
+[22:33:58] [INFO] Callback 'onVehicleAdded' set up for delayed execution.
+[22:33:58] [INFO] query "INSERT INTO `svehicle` VALUES (NULL, '2298.476807', '-1237.458496', '23.555695', '195.793655', '532', '0', '-1', '-1', '999.0');" successfully executed within 5.712 milliseconds
+[22:33:58] [INFO] Executing callback 'onVehicleAdded' with 1 parameter...
+[22:33:58] [INFO] Callback successfully executed.
+[22:34:16] [INFO] orm_update: generated query "UPDATE `players` SET `password`='51BEEFFEDD01B56D0E9832B011A872CB49C2777979F65068A170B86004634A18',`salt`='0ENK[6|W)A`%t%H.',`x`='2298.862',`y`='-1257.344',`z`='23.844',`a`='8.044',`interior`='0',`skin`='4',`money`='100000',`virtualworld`='0',`username`='ThNks' WHERE `id`='0' LIMIT 1"
+[22:34:16] [INFO] query "UPDATE `players` SET `password`='51BEEFFEDD01B56D0E9832B011A872CB49C2777979F65068A170B86004634A18',`salt`='0ENK[6|W)A`%t%H.',`x`='2298.862',`y`='-1257.344',`z`='23.844',`a`='8.044',`interior`='0',`skin`='4',`money`='100000',`virtualworld`='0',`username`='ThNks' WHERE `id`='0' LIMIT 1" successfully executed within 5.339 milliseconds
+[22:34:36] [INFO] changed log level from 'warning, error' to 'info'
+[22:34:36] [INFO] Callback 'OnHousesDownloaded' set up for delayed execution.
+[22:34:36] [INFO] Callback 'OnServerVehiclesLoaded' set up for delayed execution.
+[22:34:36] [INFO] query "SELECT * FROM `houses`" successfully executed within 0.278 milliseconds
+[22:34:36] [INFO] Executing callback 'OnHousesDownloaded' with 0 parameter...
+[22:34:36] [INFO] Callback successfully executed.
+[22:34:36] [INFO] Callback 'OnQueryError' set up for delayed execution.
+[22:34:36] [INFO] Executing callback 'ä¹' with 5 parameters...
+[22:34:36] [INFO] Callback successfully executed.
+[22:34:51] [INFO] Callback 'OnPlayerDataLoaded' set up for delayed execution.
+[22:34:51] [INFO] orm_select: generated query "SELECT `password`,`salt`,`x`,`y`,`z`,`a`,`interior`,`id`,`skin`,`money`,`virtualworld` FROM `players` WHERE `username`='ThNks' LIMIT 1"
+[22:34:51] [INFO] query "SELECT `password`,`salt`,`x`,`y`,`z`,`a`,`interior`,`id`,`skin`,`money`,`virtualworld` FROM `players` WHERE `username`='ThNks' LIMIT 1" successfully executed within 0.375 milliseconds
+[22:34:51] [INFO] Executing callback 'OnPlayerDataLoaded' with 1 parameter...
+[22:34:51] [INFO] Callback successfully executed.
+[22:35:08] [INFO] orm_update: generated query "UPDATE `players` SET `password`='51BEEFFEDD01B56D0E9832B011A872CB49C2777979F65068A170B86004634A18',`salt`='0ENK[6|W)A`%t%H.',`x`='2304.779',`y`='-1254.885',`z`='23.844',`a`='86.125',`interior`='0',`skin`='4',`money`='100000',`virtualworld`='0',`username`='ThNks' WHERE `id`='0' LIMIT 1"
+[22:35:08] [INFO] query "UPDATE `players` SET `password`='51BEEFFEDD01B56D0E9832B011A872CB49C2777979F65068A170B86004634A18',`salt`='0ENK[6|W)A`%t%H.',`x`='2304.779',`y`='-1254.885',`z`='23.844',`a`='86.125',`interior`='0',`skin`='4',`money`='100000',`virtualworld`='0',`username`='ThNks' WHERE `id`='0' LIMIT 1" successfully executed within 6.503 milliseconds
+[22:35:36] [INFO] changed log level from 'warning, error' to 'info'
+[22:35:36] [INFO] Callback 'OnHousesDownloaded' set up for delayed execution.
+[22:35:36] [INFO] Callback 'OnServerVehiclesLoaded' set up for delayed execution.
+[22:35:36] [INFO] query "SELECT * FROM `houses`" successfully executed within 0.289 milliseconds
+[22:35:36] [INFO] query "SELECT * FROM `svehicle`" successfully executed within 0.157 milliseconds
+[22:35:36] [INFO] Executing callback 'OnHousesDownloaded' with 0 parameter...
+[22:35:36] [INFO] Callback successfully executed.
+[22:35:36] [INFO] Executing callback 'OnServerVehiclesLoaded' with 0 parameter...
+[22:35:36] [INFO] Callback successfully executed.
+[22:35:50] [INFO] Callback 'OnPlayerDataLoaded' set up for delayed execution.
+[22:35:50] [INFO] orm_select: generated query "SELECT `password`,`salt`,`x`,`y`,`z`,`a`,`interior`,`id`,`skin`,`money`,`virtualworld` FROM `players` WHERE `username`='ThNks' LIMIT 1"
+[22:35:50] [INFO] query "SELECT `password`,`salt`,`x`,`y`,`z`,`a`,`interior`,`id`,`skin`,`money`,`virtualworld` FROM `players` WHERE `username`='ThNks' LIMIT 1" successfully executed within 0.398 milliseconds
+[22:35:50] [INFO] Executing callback 'OnPlayerDataLoaded' with 1 parameter...
+[22:35:50] [INFO] Callback successfully executed.
+[22:36:15] [INFO] Callback 'onVehicleAdded' set up for delayed execution.
+[22:36:15] [INFO] query "INSERT INTO `svehicle` VALUES (NULL, '2299.189209', '-1281.941162', '23.837685', '178.535919', '541', '0', '0', '0', '999.0');" successfully executed within 6.75 milliseconds
+[22:36:15] [INFO] Executing callback 'onVehicleAdded' with 1 parameter...
+[22:36:15] [INFO] Callback successfully executed.
+[22:36:34] [INFO] orm_update: generated query "UPDATE `players` SET `password`='51BEEFFEDD01B56D0E9832B011A872CB49C2777979F65068A170B86004634A18',`salt`='0ENK[6|W)A`%t%H.',`x`='2302.506',`y`='-1261.308',`z`='23.467',`a`='179.36',`interior`='0',`skin`='4',`money`='100000',`virtualworld`='0',`username`='ThNks' WHERE `id`='0' LIMIT 1"
+[22:36:34] [INFO] query "UPDATE `players` SET `password`='51BEEFFEDD01B56D0E9832B011A872CB49C2777979F65068A170B86004634A18',`salt`='0ENK[6|W)A`%t%H.',`x`='2302.506',`y`='-1261.308',`z`='23.467',`a`='179.36',`interior`='0',`skin`='4',`money`='100000',`virtualworld`='0',`username`='ThNks' WHERE `id`='0' LIMIT 1" successfully executed within 5.489 milliseconds
+[22:46:16] [INFO] Callback 'OnPlayerDataLoaded' set up for delayed execution.
+[22:46:16] [INFO] orm_select: generated query "SELECT `password`,`salt`,`x`,`y`,`z`,`a`,`interior`,`id`,`skin`,`money`,`virtualworld` FROM `players` WHERE `username`='ThNks' LIMIT 1"
+[22:46:16] [INFO] query "SELECT `password`,`salt`,`x`,`y`,`z`,`a`,`interior`,`id`,`skin`,`money`,`virtualworld` FROM `players` WHERE `username`='ThNks' LIMIT 1" successfully executed within 0.464 milliseconds
+[22:46:16] [INFO] Executing callback 'OnPlayerDataLoaded' with 1 parameter...
+[22:46:16] [INFO] Callback successfully executed.
+[22:47:03] [INFO] orm_update: generated query "UPDATE `players` SET `password`='51BEEFFEDD01B56D0E9832B011A872CB49C2777979F65068A170B86004634A18',`salt`='0ENK[6|W)A`%t%H.',`x`='2299.262',`y`='-1285.788',`z`='23.543',`a`='178.48',`interior`='0',`skin`='4',`money`='100000',`virtualworld`='0',`username`='ThNks' WHERE `id`='0' LIMIT 1"
+[22:47:03] [INFO] query "UPDATE `players` SET `password`='51BEEFFEDD01B56D0E9832B011A872CB49C2777979F65068A170B86004634A18',`salt`='0ENK[6|W)A`%t%H.',`x`='2299.262',`y`='-1285.788',`z`='23.543',`a`='178.48',`interior`='0',`skin`='4',`money`='100000',`virtualworld`='0',`username`='ThNks' WHERE `id`='0' LIMIT 1" successfully executed within 5.931 milliseconds
+[22:47:10] [INFO] changed log level from 'warning, error' to 'info'
+[22:47:10] [INFO] Callback 'OnHousesDownloaded' set up for delayed execution.
+[22:47:10] [INFO] Callback 'OnServerVehiclesLoaded' set up for delayed execution.
+[22:47:10] [INFO] query "SELECT * FROM `houses`" successfully executed within 0.310 milliseconds
+[22:47:10] [INFO] Executing callback 'OnHousesDownloaded' with 0 parameter...
+[22:47:10] [INFO] Callback successfully executed.
+[22:47:10] [INFO] query "SELECT * FROM `svehicle`" successfully executed within 0.139 milliseconds
+[22:47:10] [INFO] Executing callback 'OnServerVehiclesLoaded' with 0 parameter...
+[22:47:10] [INFO] Callback successfully executed.
+[22:47:27] [INFO] Callback 'OnPlayerDataLoaded' set up for delayed execution.
+[22:47:27] [INFO] orm_select: generated query "SELECT `password`,`salt`,`x`,`y`,`z`,`a`,`interior`,`id`,`skin`,`money`,`virtualworld` FROM `players` WHERE `username`='ThNks' LIMIT 1"
+[22:47:27] [INFO] query "SELECT `password`,`salt`,`x`,`y`,`z`,`a`,`interior`,`id`,`skin`,`money`,`virtualworld` FROM `players` WHERE `username`='ThNks' LIMIT 1" successfully executed within 0.712 milliseconds
+[22:47:27] [INFO] Executing callback 'OnPlayerDataLoaded' with 1 parameter...
+[22:47:27] [INFO] Callback successfully executed.
+[22:47:38] [INFO] Callback 'queryInfo' set up for delayed execution.
+[22:47:38] [INFO] query "update `svehicle` set `hp` = '2000.000000' where `id` = '4'" successfully executed within 4.14 milliseconds
+[22:47:38] [INFO] Executing callback 'queryInfo' with 2 parameters...
+[22:47:38] [INFO] Callback successfully executed.
+[22:47:42] [INFO] orm_update: generated query "UPDATE `players` SET `password`='51BEEFFEDD01B56D0E9832B011A872CB49C2777979F65068A170B86004634A18',`salt`='0ENK[6|W)A`%t%H.',`x`='2303.373',`y`='-1278.934',`z`='24.672',`a`='329.668',`interior`='0',`skin`='4',`money`='100000',`virtualworld`='0',`username`='ThNks' WHERE `id`='0' LIMIT 1"
+[22:47:42] [INFO] query "UPDATE `players` SET `password`='51BEEFFEDD01B56D0E9832B011A872CB49C2777979F65068A170B86004634A18',`salt`='0ENK[6|W)A`%t%H.',`x`='2303.373',`y`='-1278.934',`z`='24.672',`a`='329.668',`interior`='0',`skin`='4',`money`='100000',`virtualworld`='0',`username`='ThNks' WHERE `id`='0' LIMIT 1" successfully executed within 5.443 milliseconds
+[22:51:43] [INFO] Callback 'OnPlayerDataLoaded' set up for delayed execution.
+[22:51:43] [INFO] orm_select: generated query "SELECT `password`,`salt`,`x`,`y`,`z`,`a`,`interior`,`id`,`skin`,`money`,`virtualworld` FROM `players` WHERE `username`='ThNks' LIMIT 1"
+[22:51:43] [INFO] query "SELECT `password`,`salt`,`x`,`y`,`z`,`a`,`interior`,`id`,`skin`,`money`,`virtualworld` FROM `players` WHERE `username`='ThNks' LIMIT 1" successfully executed within 0.503 milliseconds
+[22:51:43] [INFO] Executing callback 'OnPlayerDataLoaded' with 1 parameter...
+[22:51:43] [INFO] Callback successfully executed.
+[22:53:23] [INFO] Callback 'onVehicleAdded' set up for delayed execution.
+[22:53:23] [INFO] query "INSERT INTO `svehicle` VALUES (NULL, '2298.473633', '-1302.596069', '24.000000', '178.470810', '431', '0', '1', '1', '999.0');" successfully executed within 5.517 milliseconds
+[22:53:23] [INFO] Executing callback 'öÄ' with 2 parameters...
+[22:53:23] [INFO] Callback successfully executed.
+[22:53:45] [INFO] orm_update: generated query "UPDATE `players` SET `password`='51BEEFFEDD01B56D0E9832B011A872CB49C2777979F65068A170B86004634A18',`salt`='0ENK[6|W)A`%t%H.',`x`='2301.263',`y`='-1287.876',`z`='23.836',`a`='115.156',`interior`='0',`skin`='4',`money`='100000',`virtualworld`='0',`username`='ThNks' WHERE `id`='0' LIMIT 1"
+[22:53:45] [INFO] query "UPDATE `players` SET `password`='51BEEFFEDD01B56D0E9832B011A872CB49C2777979F65068A170B86004634A18',`salt`='0ENK[6|W)A`%t%H.',`x`='2301.263',`y`='-1287.876',`z`='23.836',`a`='115.156',`interior`='0',`skin`='4',`money`='100000',`virtualworld`='0',`username`='ThNks' WHERE `id`='0' LIMIT 1" successfully executed within 70.309 milliseconds

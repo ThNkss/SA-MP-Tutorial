@@ -2,6 +2,8 @@
 #include <zcmd>
 #include <a_mysql>
 #include <streamer>
+#define SSCANF_NO_NICE_FEATURES
+#include <sscanf2>
 //----------Colors-------
 #define Red 0xFF0000FF
 #define Green 0x00FF00FF
@@ -18,15 +20,29 @@
 #define HOUSE_LABEL_SOLD 19522
 #define HOUSE_LABEL 1273
 
-
 #define DEFAULT_X 2245.1165
 #define DEFAULT_Y -1262.9821
 #define DEFAULT_Z 23.9507
 #define DEFAULT_A 180.0
+
 //---------Dialogs------
 #define DIALOG_LOGIN 1001
 #define DIALOG_REGISTER 1002
 //----------Enums--------
+enum e_svehicle
+{
+	id,
+	Float:x,
+	Float:y,
+	Float:z,
+	Float:a,
+	Float:hp,
+	interior,
+	model,
+	vcolor1,
+	vcolor2,
+}
+
 enum e_housedata
 {
 	house_owner[MAX_PLAYER_NAME],
@@ -84,10 +100,20 @@ enum e_player
 	p_temphouse,
 	bool:FirstSpawn,
 }
+
 enum e_vehicle 
 {
+	v_uid,
 	v_model,
 	v_owner[24],
+	Float:x,
+	Float:y,
+	Float:z,
+	Float:a,
+	Float:hp,
+	vcolor1,
+	vcolor2,
+	interior,
 	bool:Spawned
 }
 
@@ -105,6 +131,8 @@ new Vehicle[MAX_VEHICLES][e_vehicle];
 new House[MAX_HOUSES][e_housedata];
 new HouseType[MAX_HOUSE_TYPE][e_housetemplate];
 new HouseLoaded = 0;
+new SVehicleLoaded = 0;
+new S_Vehicles[MAX_VEHICLES][e_svehicle];
 //----------Callbacks----
 
 main()
@@ -132,6 +160,8 @@ public OnGameModeInit()
 	LoadHouseTypes();
 	DisableInteriorEnterExits();
 	AddPlayerClass(0, 1958.3783, 1343.1572, 15.3746, 269.1425, 0, 0, 0, 0, 0, 0);
+	mysql_format(g_SQL, text, sizeof text,"SELECT * FROM `svehicle`");
+	mysql_tquery(g_SQL, text, "OnServerVehiclesLoaded");
 	return 1;
 }
 
@@ -234,6 +264,8 @@ public OnPlayerDeath(playerid, killerid, reason)
 
 public OnVehicleSpawn(vehicleid)
 {
+	LinkVehicleToInterior(vehicleid, Vehicle[vehicleid][interior]);
+	SetVehicleHealth(vehicleid, Vehicle[vehicleid][hp]);
 	return 1;
 }
 
@@ -641,6 +673,49 @@ public TellUser(playerid)
 	SendClientMessage(playerid, 0xFFFF00FF, "House Was Made");
 	return 1;
 }
+
+forward OnServerVehiclesLoaded();
+public OnServerVehiclesLoaded()
+{
+	SVehicleLoaded = 0;
+	new rows;
+	cache_get_row_count(rows);
+	for(new i=0;i<rows;i++)
+	{
+		cache_get_value_name_int(i,"id",S_Vehicles[i][id]);
+		cache_get_value_name_float(i,"x",S_Vehicles[i][x]);
+		cache_get_value_name_float(i,"y",S_Vehicles[i][y]);
+		cache_get_value_name_float(i,"z",S_Vehicles[i][z]);
+		cache_get_value_name_float(i,"a",S_Vehicles[i][a]);
+		cache_get_value_name_float(i,"hp",S_Vehicles[i][hp]);
+		cache_get_value_name_int(i,"interior",S_Vehicles[i][interior]);
+		cache_get_value_name_int(i,"model",S_Vehicles[i][model]);
+		cache_get_value_name_int(i,"color1",S_Vehicles[i][vcolor1]);
+		cache_get_value_name_int(i,"color2",S_Vehicles[i][vcolor2]);
+		SVehicleLoaded++;
+
+		spawnServerVehicle(i);
+	}
+	return 1;
+}
+forward spawnServerVehicle(i);
+public spawnServerVehicle(i)
+{
+	new temp = AddStaticVehicle(S_Vehicles[i][model], S_Vehicles[i][x], S_Vehicles[i][y], S_Vehicles[i][z] ,S_Vehicles[i][a], S_Vehicles[i][vcolor1], S_Vehicles[i][vcolor2]);
+	LinkVehicleToInterior(temp, S_Vehicles[i][interior]);
+	SetVehicleHealth(temp, S_Vehicles[i][hp]);
+	Vehicle[temp][v_uid] = S_Vehicles[i][id];
+	Vehicle[temp][v_model] = S_Vehicles[i][model];
+	format(Vehicle[temp][v_owner], 24, "server");
+	Vehicle[temp][x] = S_Vehicles[i][x];
+	Vehicle[temp][y] = S_Vehicles[i][y];
+	Vehicle[temp][z] = S_Vehicles[i][z];
+	Vehicle[temp][a] = S_Vehicles[i][a];
+	Vehicle[temp][hp] = S_Vehicles[i][hp];
+	Vehicle[temp][vcolor1] = S_Vehicles[i][vcolor1];
+	Vehicle[temp][vcolor2] = S_Vehicles[i][vcolor2];
+	Vehicle[temp][interior] = S_Vehicles[i][interior];
+}
 // Commands
 
 CMD:help(playerid, params[])
@@ -692,5 +767,70 @@ CMD:setexit(playerid, params[])
 	{
 		CreateHouse(playerid);
 	}
+	return 1;
+}
+
+CMD:addservervehicle(playerid, params[]) 
+{
+	new Float:temp[4], tinterior;
+	GetPlayerPos(playerid, temp[0], temp[1], temp[2]);
+	GetPlayerFacingAngle(playerid, temp[3]);
+	tinterior = GetPlayerInterior(playerid);
+	new modelid, c1, c2;
+	sscanf(params, "iii", modelid, c1, c2);
+	
+	new query[200];
+	mysql_format(g_SQL, query, 200, "INSERT INTO `svehicle` VALUES (NULL, '%f', '%f', '%f', '%f', '%d', '%d', '%d', '%d', '999.0');", temp[0], temp[1], temp[2], temp[3], modelid, tinterior, c1, c2 );
+	mysql_tquery(g_SQL, query, "onVehicleAdded", "ds", playerid, "The vehicle was added");
+
+	S_Vehicles[SVehicleLoaded][id] = (SVehicleLoaded > 0 ? S_Vehicles[SVehicleLoaded -1][id] + 1 : 2); 
+	new index = SVehicleLoaded;
+	SVehicleLoaded++;
+	S_Vehicles[index][x] = temp[0]; 
+	S_Vehicles[index][y] = temp[1];
+	S_Vehicles[index][z] = temp[2];
+	S_Vehicles[index][a] = temp[3];
+	S_Vehicles[index][interior] = tinterior;
+	S_Vehicles[index][hp] = 999.0;
+	S_Vehicles[index][model] = modelid;
+	S_Vehicles[index][vcolor1] = c1;
+	S_Vehicles[index][vcolor2] = c2;
+	spawnServerVehicle(index);
+	return 1;
+}
+forward queryInfo(playerid, text[]);
+public queryInfo(playerid, text[])
+{
+	SendClientMessage(playerid, Green, text);
+	return;
+}
+
+CMD:setservervehiclehp(playerid, params[])
+{
+	if(IsPlayerInAnyVehicle(playerid))
+	{
+		new vid = GetPlayerVehicleID(playerid);
+		if(!strcmp("server",Vehicle[vid][v_owner]))
+		{
+			for(new i=0; i<SVehicleLoaded; i++)
+			{
+				if(S_Vehicles[i][id] == Vehicle[vid][v_uid])
+				{
+					sscanf(params, "f", S_Vehicles[i][hp]); 
+					sscanf(params, "f", Vehicle[vid][hp]); 
+					new query[200];
+					mysql_format(g_SQL, query, 200, "update `svehicle` set `hp` = '%f' where `id` = '%d'", S_Vehicles[i][hp], S_Vehicles[i][id]);
+					mysql_tquery(g_SQL, query, "queryInfo", "ds", playerid, "The vehicle hp was updated.");
+					break;
+				}
+			}
+		}
+		else 
+		{
+			return SendClientMessage(playerid, Red, "This vehicle does not belog to server.");
+		}
+	}
+	else
+		return SendClientMessage(playerid, Red, "You are not in a vehicle");
 	return 1;
 }
